@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>CONCURSO LIFERAY</title>
+</head>
+<body>
+    <main id="app">
+        <div class="container">
+            <div class="content">
+                <div class="logo">
+                    <img src="assets/logo.svg" alt="Liferay">
+                </div>
+                <div class="frase">
+                    <img src="assets/frase.svg" alt="frase">
+                </div>
+                <div class="stage-one" id="js-stage--one">
+                        <h1>ES HORA DE CONCURSAR</h1>
+                        <button onclick="ejecutar(),adios(),fireworks()" id="js-btn" class="btn--primary">¿QUIÉN GANARÁ?</button>
+                </div>
+                <div class="stage-two" id="js-stage--two">
+                        <div class="list--item" id="js-participant">
+                        </div>
+                        <div class="list--item" id="js-winner">
+                        </div>
+                </div>
+            </div>
+        </div>
+        <canvas class='fireworks'></canvas>
+    </main>
+    <script src="js/animate.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/fireworks.js"></script>
+</body>
+</html>
