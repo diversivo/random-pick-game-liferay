@@ -74,3 +74,17 @@ var adios = function adios(){
     stageOne.classList.add("ocult");
     console.log('adios')
 };
+
+var animatePrev = document.getElementById('animate-show');
+
+var mostrar = function mostrar() {
+    animatePrev.classList.remove('ocult');
+    console.log('mostrar')
+}
+
+var sacar = function sacar() {
+    console.log('sacar')
+    setTimeout(() => {
+        animatePrev.classList.add('ocult')
+    }, 8000);
+}
